@@ -1,0 +1,398 @@
+.jumbotron,
+.card-body,
+.container,
+.site-header {
+  font-family: 'Verdana', serif !important;
+}
+
+.jumbotron .display-4 {
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.jumbotron {
+  height: 50vh;
+  padding: 5em inherit;
+  margin-bottom: 0;
+  background-color: #53C0FB;
+  background: url('../img/cover_back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.jumbotron .lead {
+  font-size: 38px;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.site-header a {
+  color: white;
+  transition: ease-in-out color .15s;
+}
+
+.site-header .dropdown-menu a {
+  color: black;
+}
+
+.dropzone {
+  border: 2px dashed #0087F7;
+  border-radius: 5px;
+  background: white;
+}
+
+.img-fit {
+  max-height: 100%;
+}
+
+.alert {
+  position: fixed;
+  top: 80px;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  top: 50%;
+  left: 50%;
+}
+
+.cursor-active {
+  cursor: pointer;
+}
+
+.left {
+  float: left;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+#spinner-wrapper {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1021;
+  display: none;
+}
+
+main {
+  min-height: calc(100vh - 210px);
+ 
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.checked {
+  color: orange;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.login-container  {
+  font-family: 'Inter' ;
+  padding: 50px;
+    display: flex;
+    align-items: center;
+  
+}
+.login-container form {
+  background-color: #e88b348f;
+    border: 2px solid #894B0F;
+    border-radius: 20px;
+    height: 380px;
+    width: 300px;
+    padding: 25px 20px;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: center;
+}
+
+.login-container label {
+  color: black;
+}
+.login-container input {
+border: 2px solid #6C1C04;
+background-color:#894B0F4A ;
+height: 35px;
+ }
+ #login {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 550px;
+ height: 600px;}
+
+.login-container h5 {
+  font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.login-container input { 
+border: 2px solid #6C1C04;
+    border-radius: 20px;
+    height: 35px;
+    background-color: #894B0F4A; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  #background-login {
+    background-image: url(../img/figma.jpg);
+    background-size: cover;
+  }
+
+h1{
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: -40px;
+  font-size: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.category-button{
+  background-color: #C8572F;
+  border-color: #C8572F;
+  border-radius: 10px;
+  color: white;
+  font-size: smaller;
+  float: right;
+  margin-right: 75px;
+  margin-bottom:20px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+hr{
+  margin: 50px 80px;
+  padding: 1px;
+  background-color: #6D6D6D;
+}
+
+.product-list{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+  .product{
+    text-align:left;
+    margin: 15px;
+    border: 2px solid #E6E6E6;
+    border-radius: 20px;
+    background-color: #FAFAF5;
+    width: 300px;
+    height: 280px;
+  }
+
+  .product:hover{
+    background-color:#E6E6E6;
+  }
+
+  .product img{
+    margin-bottom: 10px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+
+  .product h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    padding: 0px 10px;
+  }
+
+  .product .description{
+    margin-bottom: 1px;
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+
+  .product .price{
+    margin-bottom: 1px;
+    color: #BD461A;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px 10px;
+  }
+
+  .product .sold-quantity{
+    font-size: 12px;
+    color: #6D6D6D;
+    padding: 0px 10px;
+  }
+  
+/*para pantallas grandes*/
+  @media (min-width: 1366px) {
+    #login {
+      width: 60%;
+      height: auto;
+      margin: auto;
+    }
+  
+    .login-container form {
+      width: 80%;
+      padding: 25px;
+    }
+  }
+/*para tabletas en modo vertical*/
+  @media (max-width: 1024px) and (min-width: 768px) {
+    #login {
+      width: 80%;
+      height: auto;
+      margin: auto;
+    }
+  
+    .login-container form {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .login-container h5 {
+      font-size: 24px;
+    }
+  
+    .login-container input {
+      height: 30px;
+      font-size: 16px;
+    }
+  }
+  /*para smartphones pequeños*/
+  @media (max-width: 568px) and (min-width: 320px){
+    #login {
+      width: 95%;
+      height: auto;
+      margin: auto;
+    }
+  
+    .login-container form {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .login-container h5 {
+      font-size: 20px;
+    }
+  
+    .login-container input {
+      height: 28px;
+      font-size: 14px;
+    }
+  }
